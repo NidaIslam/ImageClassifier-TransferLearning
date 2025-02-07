@@ -1,10 +1,6 @@
-# Image Classifier in PyTorch - Transfer Learning
+# 🚀 Image Classifier in PyTorch - Transfer Learning
 
-This repository contains an image classification project built using transfer learning with PyTorch. The project leverages pre-trained deep neural networks (such as VGG, DenseNet, and AlexNet) to extract features from images and builds a custom classifier on top for fine-tuning on a specific dataset. This approach allows you to achieve high accuracy with less training time and data.
-
-## 📌 Overview
-
-In this project, transfer learning is used to build an efficient image classifier. A pre-trained model (such as VGG, DenseNet, or AlexNet) is used as a feature extractor, and its final fully connected (classifier) layers are replaced with a new, custom classifier tailored to your specific dataset. The provided scripts allow you to:
+This repository contains an image classification project built using transfer learning with PyTorch. The project leverages pre-trained deep neural networks (such as VGG, DenseNet, and AlexNet) to extract features from images and its final fully connected (classifier) layers are replaced with a custom classifier on top for fine-tuning on a specific dataset. This approach allows you to achieve high accuracy with less training time and data. The provided scripts allow you to:
 
  ✅ Train a new classifier on your dataset. \
  ✅ Log training progress with metrics such as training loss, validation loss, and validation accuracy. \
